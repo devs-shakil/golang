@@ -1,6 +1,5 @@
 package main
-import "fmt"
-
+import "shakil.com/user"
 // function
 
 // func main(){
@@ -50,16 +49,21 @@ import "fmt"
 // 	fmt.Println("The sum is:", result)
 // }
 
-func mulsum(a int, b int)(int, int){
-	mul := a * b;
-	sum := a + b;
-	return mul, sum
-}
+// func mulsum(a int, b int)(int, int){
+// 	mul := a * b;
+// 	sum := a + b;
+// 	return mul, sum
+// }
 
+// func main(){
+// 	a := 100;
+// 	b := 200;
+// 	mul, sum := mulsum(a, b);
+// 	fmt.Println("The multiplication is:", mul);
+// 	fmt.Println("The sum is:", sum);
+// }
+
+// package user
 func main(){
-	a := 100;
-	b := 200;
-	mul, sum := mulsum(a, b);
-	fmt.Println("The multiplication is:", mul);
-	fmt.Println("The sum is:", sum);
+	user.Name("Shakil tanzina")
 }
