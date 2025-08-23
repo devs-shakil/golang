@@ -1,5 +1,6 @@
 package main
-import "shakil.com/user"
+import  "fmt"
+// import "shakil.com/user"
 // function
 
 // func main(){
@@ -64,6 +65,16 @@ import "shakil.com/user"
 // }
 
 // package user
+// func main(){
+// 	user.Name("Shakil tanzina")
+// 	user.Add(10, 20)
+// }
+
+// init function
 func main(){
-	user.Name("Shakil tanzina")
+	fmt.Println("Hello, World!");
+}
+
+func init(){
+	fmt.Println("this is init function, its will be run before main function")
 }
